@@ -1,0 +1,15 @@
+body {
+	font-family: raleway,sans-serif;
+    line-height: 1.65;
+    background-color: #333;
+}
+	
+h1 {
+	color: #927c6d;
+	border-top: 1px solid #927c6d;
+
+} 
+
+li {
+	color: #fff;
+}
