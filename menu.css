@@ -10,6 +10,7 @@
 
 h2{
     padding: 10px;
+    position: static;
 }
 
 img{
@@ -17,8 +18,12 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 50%;
 
     border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
 }
 
 li{
@@ -36,4 +41,26 @@ li{
 
 #top{
     text-align: center;
+    color: black;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  background-color: gray;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 1.5rem;
+  
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.line {
+  border-top: 2.5px solid black;
 }
