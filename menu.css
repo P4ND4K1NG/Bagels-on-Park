@@ -1,26 +1,17 @@
 *{
-    margin: 0;
-    padding: 0;
+    background-color: #ca2626;
 }
 
-.Menu{
-    width: auto;
-    height: 800px;
-
-    text-align: center;
-
-    margin: 40px;
-
-    border: 5px solid black;
-    background-color: gray;
+h1{
+    background-color: white;
 }
-
 h2{
-    padding: 10px;
+    color: white
 }
+
 
 img{
-    border: 2px solid black;
+    border: 10px solid white;    
 }
 
 li{
@@ -28,4 +19,44 @@ li{
     text-align: left;
     padding-left: 30px;
     padding-top: 20px;
+}
+
+.title{
+    display: grid;
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+
+    background-color: white;
+
+    padding: 10px;
+    margin-top: 30px;
+}
+.bagels{
+    display: grid;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    border-right: solid black;
+
+    height: 850px;
+
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+}
+.cell{
+    margin: 10px;
+    padding: 10px;
+}
+.description{
+    position: relative; /* 850 by 938 */
+    bottom: 15px;
+
+    color: white;
+}
+
+.omeletteImg{
+    width: 40%;
+    height: 45%;
 }
