@@ -1,0 +1,66 @@
+.panini-grid, .soda-juices-grid, .iced-coffee-grid {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  background-color: #e7e5e1;
+  justify-content: space-between;
+  grid-gap: 1%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.espressos-grid, .lattes-grid {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  background-color: #e7e5e1;
+  justify-content: space-between;
+  grid-gap: 1%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.hot-chocolate-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: #e7e5e1;
+  justify-content: space-between;
+  grid-gap: 1%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.organic-rishi-teas-grid {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  background-color: #e7e5e1;
+  justify-content: space-between;
+  grid-gap: 1%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+body {
+  font-family: raleway,sans-serif;
+  line-height: 1.65;
+  background-color: #333;
+  margin: 2%;
+}
+  
+h1 {
+  color: #927c6d;
+  text-align: center;
+  position: static;
+}
+
+h3 {
+  color: #927c6d;
+  position: static;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  border: 3px solid #927c6d;
+  border-radius: 10px;
+}
